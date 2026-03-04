@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Imam Rotation System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🕌 Imam Rotation System</h1>
+
+<div class="card">
+<h2>Imam Hari Ini</h2>
+<p id="todayImam">-</p>
+</div>
+
+<div class="card">
+<h2>Next Imam</h2>
+<p id="nextImam">-</p>
+</div>
+
+<div class="card">
+<h2>Tambah Nama Imam</h2>
+
+<input type="text" id="imamInput" placeholder="Masukkan nama">
+<button onclick="addImam()">Add</button>
+
+<ul id="imamList"></ul>
+</div>
+
+<button onclick="rotateImam()" class="rotateBtn">
+Generate Imam
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
